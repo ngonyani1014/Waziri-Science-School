@@ -1,1 +1,167 @@
+/* ==========================================
+   physics_form2.css - Form 2 Physics Notes
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px 10px;
+    color: #1a202c;
+    word-wrap: break-word;
+}
+
+.notes-container {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Topic Header */
+.topic-header {
+    background-color: #4a5568;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.topic-header h2 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+}
+
+.topic-header h3 {
+    margin: 0;
+    color: #feb2b2;
+    font-size: 18px;
+}
+
+/* Section Header */
+.section-header {
+    background-color: #2d3748;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.section-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #e2e8f0;
+}
+
+/* Sub-headings */
+h4 {
+    color: #2d3748;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 4px;
+}
+
+/* Text Content & Lists */
+p, ul, ol {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Quotes & Laws */
+.law-quote {
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0 10px 15px;
+    border-left: 3px solid #4a5568;
+    padding-left: 10px;
+}
+
+/* Images */
+.note-image {
+    max-width: 100%;
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+}
+
+/* MathJax & Formula Boxes */
+.formula-box {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-size: 15px;
+    color: #1a202c;
+    overflow-x: auto;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+}
+
+.formula-box mjx-container {
+    font-size: 100% !important;
+    outline: none;
+}
+
+/* Worked Examples */
+.example-box {
+    background-color: #edf2f7;
+    padding: 15px;
+    border-left: 4px solid #4a5568;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Data & Matching Tables */
+.matching-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    overflow-x: auto;
+    display: block;
+}
+
+.matching-table th, 
+.matching-table td {
+    border: 1px solid #cbd5e0;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.matching-table th {
+    background-color: #edf2f7;
+}
+
+/* Footer Credit */
+.footer-credit {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #cbd5e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #4a5568;
+}
 
